@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Neon Admin Panel" />
+	<meta name="author" content="" />
+
+	<title>Teacher Side</title>
+
+	<link rel="stylesheet" href="assets/js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css">
+	<link rel="stylesheet" href="assets/css/font-icons/entypo/css/entypo.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/neon-core.css">
+	<link rel="stylesheet" href="assets/css/neon-theme.css">
+	<link rel="stylesheet" href="assets/css/neon-forms.css">
+	<link rel="stylesheet" href="custom.css">
+
+	<script src="assets/js/jquery-1.11.0.min.js"></script>
+	<script>$.noConflict();</script>
+
+	<!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+
+</head>
+<body class="page-body1  page-fade gray">
+    <div class="col-xs-10 col-xs-offset-1">
+        <div class="header row">
+            <ul>
+                
+                <li class="col-xs-1">
+                    <a href="#">
+                        <img src="images/logo.png" alt="Site Logo"/>
+                    </a>
+                </li> <!--End Of Logo-->
+                
+
+                <li class="notifications dropdown col-xs-1 col-xs-offset-1">
+
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img src="images/notification.png" alt=""/>
+                        <span class="badge badge-info">6</span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li class="top">
+                            <p class="small">
+                                <a href="#" class="pull-right">Mark all Read</a>
+                                You have <strong>3</strong> new notifications.
+                            </p>
+                        </li>
+
+                        <li>
+                            <ul class="dropdown-menu-list scroller" tabindex="5001" style="overflow: hidden; outline: none;">
+                                <li class="unread notification-success">
+                                    <a href="#">
+                                        <i class="entypo-user-add pull-right"></i>
+
+											<span class="line">
+												<strong>New user registered</strong>
+											</span>
+
+											<span class="line small">
+												30 seconds ago
+											</span>
+                                    </a>
+                                </li>
+
+                                <li class="unread notification-secondary">
+                                    <a href="#">
+                                        <i class="entypo-heart pull-right"></i>
+
+											<span class="line">
+												<strong>Someone special liked this</strong>
+											</span>
+
+											<span class="line small">
+												2 minutes ago
+											</span>
+                                    </a>
+                                </li>
+
+                                <li class="notification-primary">
+                                    <a href="#">
+                                        <i class="entypo-user pull-right"></i>
+
+											<span class="line">
+												<strong>Privacy settings have been changed</strong>
+											</span>
+
+											<span class="line small">
+												3 hours ago
+											</span>
+                                    </a>
+                                </li>
+
+                                <li class="notification-danger">
+                                    <a href="#">
+                                        <i class="entypo-cancel-circled pull-right"></i>
+
+											<span class="line">
+												John cancelled the event
+											</span>
+
+											<span class="line small">
+												9 hours ago
+											</span>
+                                    </a>
+                                </li>
+
+                                <li class="notification-info">
+                                    <a href="#">
+                                        <i class="entypo-info pull-right"></i>
+
+											<span class="line">
+												The server is status is stable
+											</span>
+
+											<span class="line small">
+												yesterday at 10:30am
+											</span>
+                                    </a>
+                                </li>
+
+                                <li class="notification-warning">
+                                    <a href="#">
+                                        <i class="entypo-rss pull-right"></i>
+
+											<span class="line">
+												New comments waiting approval
+											</span>
+
+											<span class="line small">
+												last week
+											</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="external">
+                            <a href="#">View all notifications</a>
+                        </li>
+                        <div id="ascrail2001" class="nicescroll-rails" style="padding-right: 3px; width: 10px; z-index: 1000; position: absolute; cursor: default; top: 40px; left: 359px; height: 290px; display: block; opacity: 0;"><div style="position: relative; float: right; width: 5px; border: 1px solid rgb(204, 204, 204); border-radius: 1px; height: 247px; top: 0px; background-color: rgb(212, 212, 212); background-clip: padding-box;"></div></div><div id="ascrail2001-hr" class="nicescroll-rails" style="height: 7px; z-index: 1000; position: absolute; cursor: default; display: none; top: 323px; left: 1px; width: 358px; opacity: 0;"><div style="position: relative; top: 0px; height: 5px; border: 1px solid rgb(204, 204, 204); border-radius: 1px; width: 368px; background-color: rgb(212, 212, 212); background-clip: padding-box;"></div></div></ul>
+
+                </li> <!--End Of Notifications-->
+
+                
+                <li class="col-xs-offset-4 col-xs-4">
+                   <ul class="teacher-side">
+                       <li class="pull-left teacher-name">Mohamed Ahmed</li>
+                       <div class="clearfix"></div>
+                       <li class="teacher-position">Teacher</li>
+                       <li class="pull-right img-size pic-margin"><img class="teacher-margin" src="images/teacher.png" alt="Teacher Picture"/></li>
+                   </ul>
+                </li> <!--End Of Teacher Box-->
+                
+                <li class="col-xs-1">
+                    <ul class="user-info pull-left pull-none-xsm">
+
+                        <!-- Profile Info -->
+                        <li class="profile-info dropdown pull-right arrow-margin"><!-- add class "pull-right" if you want to place this from right -->
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                            </a>
+
+                            <ul class="dropdown-menu margin-fix">
+
+                                <!-- Reverse Caret -->
+                                <li class="caret"></li>
+
+                                <!-- Profile sub-links -->
+                                <li>
+                                    <a href="extra-timeline.html">
+                                        <i class="entypo-user"></i>
+                                        Edit Profile
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="mailbox.html">
+                                        <i class="entypo-mail"></i>
+                                        Inbox
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="extra-calendar.html">
+                                        <i class="entypo-calendar"></i>
+                                        Calendar
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="entypo-logout"></i>
+                                        Tasks
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+                
+            </ul>
+            </div>      <!-- End Of Header -->
+
+       <div class="buttons-div col-xs-offset-1 col-xs-10">
+           <div class="button1 col-xs-4">
+               <a href="#">Calendar</a>
+           </div>
+           <div class="button2 col-xs-4">
+               <a href="#">Activities</a>
+           </div>
+           <div class="button3 col-xs-4">
+               <a href="#">My Space</a>
+           </div>
+       </div>       <!-- End Of Buttons -->
+
+            <div class="content row">
+                <div class="content-wave col-xs-12">
+                    <a href="#" class="inline-block">asdasd</a>
+                </div>      <!-- End Of Content Wave -->
+
+                <div class="under-wave col-xs-12">
+                    <div class="col-xs-4 assignment">
+                        <a href="#" class="assignment-head">Assignment</a>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation" class="assignment-items"><a href="#" class="assignment-link project-icon"> Projects</a></li>
+                            <li role="presentation" class="assignment-items"><a href="#" class="assignment-link project-icon">Homework</a></li>
+                            <li role="presentation" class="assignment-items"><a href="#" class="assignment-link project-icon">Quizzes</a></li>
+                            <li role="presentation" class="assignment-items"><a href="#" class="assignment-link project-icon">Classwork</a></li>
+                        </ul>
+                    </div> <!-- end of assignment -->
+
+
+
+                    <div class="col-xs-6 col-xs-offset-1 test-bg" >
+
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Imported styles on this page -->
+	<link rel="stylesheet" href="assets/js/jvectormap/jquery-jvectormap-1.2.2.css">
+	<link rel="stylesheet" href="assets/js/rickshaw/rickshaw.min.css">
+
+	<!-- Bottom scripts (common) -->
+	<script src="assets/js/gsap/main-gsap.js"></script>
+	<script src="assets/js/jquery-ui/js/jquery-ui-1.10.3.minimal.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/joinable.js"></script>
+	<script src="assets/js/resizeable.js"></script>
+	<script src="assets/js/neon-api.js"></script>
+	<script src="assets/js/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+
+
+	<!-- Imported scripts on this page -->
+	<script src="assets/js/jvectormap/jquery-jvectormap-europe-merc-en.js"></script>
+	<script src="assets/js/jquery.sparkline.min.js"></script>
+	<script src="assets/js/rickshaw/vendor/d3.v3.js"></script>
+	<script src="assets/js/rickshaw/rickshaw.min.js"></script>
+	<script src="assets/js/raphael-min.js"></script>
+	<script src="assets/js/morris.min.js"></script>
+	<script src="assets/js/toastr.js"></script>
+	<script src="assets/js/fullcalendar/fullcalendar.min.js"></script>
+	<script src="assets/js/neon-chat.js"></script>
+
+
+	<!-- JavaScripts initializations and stuff -->
+	<script src="assets/js/neon-custom.js"></script>
+
+
+	<!-- Demo Settings -->
+	<script src="assets/js/neon-demo.js"></script>
+
+</body>
+</html>

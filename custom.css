@@ -1,0 +1,135 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+.test-bg{
+    background: gold;
+
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.page-body1{
+    background: rgba(221,230,215,1) no-repeat;
+    background: -moz-linear-gradient(top, rgba(221,230,215,1) 0%, rgba(30,173,178,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(221,230,215,1)), color-stop(100%, rgba(30,173,178,1)));
+    background: -webkit-linear-gradient(top, rgba(221,230,215,1) 0%, rgba(30,173,178,1) 100%);
+    background: -o-linear-gradient(top, rgba(221,230,215,1) 0%, rgba(30,173,178,1) 100%);
+    background: -ms-linear-gradient(top, rgba(221,230,215,1) 0%, rgba(30,173,178,1) 100%);
+    background: linear-gradient(to bottom, rgba(221,230,215,1) 0%, rgba(30,173,178,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dde6d7', endColorstr='#1eadb2', GradientType=0 );
+    min-height: 7000px;
+}
+
+.header{
+    background:url("images/header.png") no-repeat;
+    background-size: 100% 100%;
+    height: 150px;
+}
+
+.header li{
+    list-style: none;
+}
+
+.img-size{
+    max-height: 110px;
+    max-width: 105;
+    margin-top:-40px;
+}
+
+.teacher-name.teacher-name{
+    margin-top:40px;
+}
+
+.arrow-margin{
+    margin-top:78px;
+}
+
+li .teacher-side{
+    color:white;
+    font-weight: bold;
+}
+
+.margin-fix {
+    margin-top: 9px !important;
+    margin-right: -18px !important;
+}
+
+.teacher-margin{
+    margin-right: -11px;
+    margin-top: 1px;
+}
+
+.buttons-div{
+    margin-top:65px;
+}
+
+.button1{
+    background:url("images/button-1.png") no-repeat;
+    background-size: 100% 100%;
+    min-height: 200px;
+}
+
+.button2{
+    background:url("images/button-2.png") no-repeat;
+    background-size: 100% 100%;
+    min-height: 200px;
+    margin-top:15px;
+}
+
+.button3{
+    background:url("images/button-3.png") no-repeat;
+    background-size: 100% 100%;
+    min-height: 200px;
+    margin-top:32px;
+}
+
+.content-wave{
+    background: url("images/content-wave.png") no-repeat;
+    background-size: 100% 100%;
+    min-height: 100px;
+    margin-top:120px;
+}
+
+.under-wave{
+    background:url("images/under-wave.png")no-repeat;
+    background-size: 100% 100%;
+    min-height: 2000px;
+}
+
+.assignment{
+    background: url("images/assignment-BG.png")no-repeat;
+    background-size: 100% 100%;
+    min-height:400px;
+}
+
+.assignment-head{
+    margin-top:50px;
+    margin-left:20px;
+    display: inline-block;
+    color:#bf0000;
+    font-size: 17pt;
+    font-weight: bold;
+
+}
+
+.project-icon{
+    background: url("images/projects-bg.png") no-repeat;
+    background-size: 20px 20px;
+    background-position: 70px;
+    background-size: 70px;
+}
+
+.assignment-items{
+    text-align: center;
+
+}
+
+.assignment-link{
+    padding-bottom: 25px !important;
+    padding-top: 25px !important;
+}
